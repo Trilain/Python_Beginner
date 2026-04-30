@@ -23,7 +23,6 @@ def juego():
                     hp_p1 = 0
                 print(f"{p1} Golpea a {p2} y hace {golpe} de daño!!")
                 turnos = 1
-
         print(f"La pelea sigue!! HP p1: {hp_p1} vs HP p2: {hp_p2}")
     if p1>p2:
         print(f"Ha ganado el jugado {p1} con {hp_p1} HP!!")
