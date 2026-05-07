@@ -31,27 +31,28 @@ cuantos quedaron para embasar en lata
 # print(f"Los peces que quedaron en plancha son {plancha}.")
 # print(f"Los peces que quedaron para embasar en lata son {lata}")
 
-peso = abs(int(input("Ingrese el peso del producto: ")))
-sodio = int(input("Ingrese el porcentaje de sodio: "))
-mercado = int(input("Ingrese el mercado del producto: 1. nacional, 2. internacional: "))
+# peso = abs(int(input("Ingrese el peso del producto: ")))
+# sodio = int(input("Ingrese el porcentaje de sodio: "))
+# mercado = int(input("Ingrese el mercado del producto: 1. nacional, 2. internacional: "))
 
-if peso <= 500:
-    lata = "lata normal"
-elif 500 < peso <= 1500:
-    lata = "lata mediana"
-else:
-    lata = "lata grande"
+# if peso <= 500:
+#     lata = "lata normal"
+# elif 500 < peso <= 1500:
+#     lata = "lata mediana"
+# else:
+#     lata = "lata grande"
 
-if sodio < 5:
-    sod = ""
-elif 5 <= sodio <= 8:
-    sod = "lata especial"
-else:
-    sod = "acorazada"
+# if sodio < 5:
+#     sod = ""
+# elif 5 <= sodio <= 8:
+#     sod = "lata especial"
+# else:
+#     sod = "acorazada"
 
-if mercado == 1:
-    sticker = ""
-else:
-    sticker = "con sticker sanitario"
+# if mercado == 1:
+#     sticker = ""
+# else:
+#     sticker = "con sticker sanitario"
 
-print(f"{lata} {sod} {sticker}")
+# print(f"{lata} {sod} {sticker}")
+
